@@ -2,7 +2,26 @@
 
 # Description
 
+A repo containing a QCoDeS-compatible driver for a labjack.
+
 # Installation
+
+Create a `conda` environment from the environment file in the root folder;
+```bash
+conda env create -f environment.yml
+```
+Then activate the environment
+```bash
+conda activate labjackdriver
+```
+and install `labjackdriver` either non-editably
+```bash
+pip install .
+```
+or in editable mode
+```bash
+pip install -e .
+```
 
 # Usage
 
