@@ -57,3 +57,7 @@ $ conda install pandoc
 else, see [here](https://pandoc.org/installing.html) for pandoc's installation instructions.
 
 Then run `make html` in the `docs` folder. The next time you build the documentation, remember to run `make clean` before you run `make html`.
+
+# Contributing
+
+We welcome contributions, big and small, as well as questions and suggestions for improving `labjackdriver`. Our community strictly adheres to the [Microsoft open source code of conduct](https://opensource.microsoft.com/codeofconduct).
